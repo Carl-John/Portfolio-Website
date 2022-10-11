@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         
         <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -57,6 +57,9 @@
                 </div>
 
                 <div class="nav_btns">
+                    <!--Theme Button-->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
                     <div class="nav_toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
                     </div>
@@ -135,7 +138,7 @@
 
                     <div class="about_data">
                         <p class="about_description"> Hi, I’m Carl John E. Cruz. A 21 year old from Brgy. Somal-ot, 
-                            Casiguran, Sorsogon. I am currently a 3rd year Informatio Technologycollege student at 
+                            Casiguran, Sorsogon. I am currently a 3rd year Information Technology college student at 
                             Sorsogon State University - Bulan Campus. With extensive knowledge on UI/UX and Frontend Developing skills. 
                             Currently working on Backend Developing skills in order to grow and fully enhance my capabilities to become a Full Stack Developer</p>
                     <p class="about_description"> I love watching movies, anime, TV series and documentaries. I do listen to music as well. 
@@ -364,47 +367,367 @@
                 </div>
             </section>
 
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
+            <!--==================== Resume ====================-->
+            <section class="resume section">
+                <h2 class="section_title">Resume</h2>
+                <span class="section_subtitle">My Personal Journey</span>
 
-            </section>
+                <div class="resume_container container">
+                    <div class="resume_tabs">
+                        <div class="resume_button button--flex resume_active" data-target='#education'>
+                            <i class="uil uil-graduation-cap resume_icon"></i>
+                                Education
+                        </div>
 
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                
+                        <div class="resume_button button--flex" data-target="#work">
+                            <i class="uil uil-briefcase-alt resume_icon"></i>
+                                Work Experience
+                        </div>
+                    </div>
+
+                    <div class="resume_section">
+                        <!--==================== Resume Content 1====================-->
+                        <div class="resume_content resume_active" data-content id="education">
+                            <!--==================== Resume  1 ====================-->
+                            <div class="resume_data">
+                                <div>
+                                    <h3 class="resume_title">Bachelor in Science Major in Information Tecnology</h3>
+                                    <span class="resume_subtitle">Sorsogon State University - Bulan Campus</span>
+                                    <div class="resume_calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2020 - Present
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="resume_rounder"></span>
+                                    <span class="resume_line"></span>
+                                </div>
+                            </div>
+
+                            <!--==================== Resume  2 ====================-->
+                            <div class="resume_data">
+                                <div></div>
+
+                                <div>
+                                    <span class="resume_rounder"></span>
+                                    <span class="resume_line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="resume_title">Senior Highschool - Science Technology Engineering and Mathematics</h3>
+                                    <span class="resume_subtitle">Casiguran Technical Vocational School</span>
+                                    <div class="resume_calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2018 - 2020
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--==================== Resume  3 ====================-->
+                            <div class="resume_data">
+                                <div>
+                                    <h3 class="resume_title">Junior Highschool</h3>
+                                    <span class="resume_subtitle">Casiguran Technical Vocational School</span>
+                                    <div class="resume_calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2014 - 2018
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="resume_rounder"></span>
+                                    <span class="resume_line"></span>
+                                </div>
+                            </div>
+
+                            <!--==================== Resume  4 ====================-->
+                            <div class="resume_data">
+                                <div></div>
+
+                                <div>
+                                    <span class="resume_rounder"></span>
+                                   <!-- <span class="resume_line"></span> -->
+                                </div>
+
+                                <div>
+                                    <h3 class="resume_title">Elementary Level</h3>
+                                    <span class="resume_subtitle">Casiguran Central School</span>
+                                    <div class="resume_calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2007 - 2014
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== Resume Content 2====================-->
+                        <div class="resume_content" data-content id="work">
+                            <!--==================== Resume  2 ====================-->
+                            <div class="resume_data">
+                                <div>
+                                    <h3 class="resume_title">Service Crew</h3>
+                                    <span class="resume_subtitle">Sea Side Burger Cafe</span>
+                                    <div class="resume_calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2021
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="resume_rounder"></span>
+                                    <span class="resume_line"></span>
+                                </div>
+                            </div>
+
+                            <div class="resume_data">
+                                <div></div>
+
+                                <div>
+                                    <span class="resume_rounder"></span>
+                                </div>
+                        </div>
+                    </div>  
+                </div>
             </section>
 
             <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                
-            </section>
+            <section class="portfolio section" id="projects">
+                <h2 class="section_title">Projects</h2>
+                <span class="section_subtitle">Created Projects</span>
 
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== PORTFOLIO 1 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
 
-            </section>
+                            <div class="portfolio__data">
+                                <h3 class="portfolio Title">Activity 1</h3>
+                                <p class="portfolio__description">The Shopping Cart Project</p>
+                                <a href="https://github.com/Carl-John/IT213-DOM-CART-ACTIVITY" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Visit
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a> 
+                            </div>
+                        </div> 
 
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
+                        <!--==================== PORTFOLIO 2 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio Title">Activity 2</h3>
+                                <p class="portfolio__description">Email Sending with Form</p>
+                                <a href="https://github.com/Carl-John/IT213-EMAIL-SENDING-ACTIVITY" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Visit
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a> 
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 3 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio Title">Activity 3</h3>
+                                <p class="portfolio__description">Car Insurance Quotation</p>
+                                <a href="https://github.com/Carl-John/IT213-CAR-INSURANCE-QUOTATION" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Visit
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a> 
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 4 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio4.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio Title">Activity 4</h3>
+                                <p class="portfolio__description">The Weekly Budget App</p>
+                                <a href="https://github.com/Carl-John/IT213-WEEKLY-BUDGET-APP" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Visit
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a> 
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 5 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio5.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio Title">Activity 5</h3>
+                                <p class="portfolio__description">A Name Generator</p>
+                                <a href="https://github.com/Carl-John/IT213-NAME-GENERATOR" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Visit
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a> 
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 6 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio6.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio Title">Activity 6</h3>
+                                <p class="portfolio__description">Cryptocurrencies Rate</p>
+                                <a href="https://github.com/Carl-John/IT213-CRYPTOCURRENCIES-RATES" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Visit
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a> 
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 7 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio7.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio Title">Activity 7</h3>
+                                <p class="portfolio__description">Perfect Cocktail - A Drink Recipe App</p>
+                                <a href="https://github.com/Carl-John/IT213-PERFECT-COCKTAIL-DRINK-RECIPE-APP" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Visit
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add Arrows-->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!--Add Pagination-->
+                    <div class="swiper-pagination"></div>
+                </div>
             </section>
 
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
+                <h2 class="section_title">Contact Me</h2>
+                <span class="section_subtitle">Get in Touch</span>
 
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Call Me</h3>
+                                <span class="contact__subtitle"></span>+639063526453</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">jy081320@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">EH Housing Yellow Lot Blck.4, Brgy. Somal-ot, Casiguran, Sorsogon</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Name</label>
+                                <input type="text" class="contact__inout">
+                            </div>
+
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" class="contact__inout">
+                            </div>
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Project</label>
+                            <input type="text" class="contact__inout">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
+
+                        <div>
+                            <a href="#" class="button button--flex">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
             </section>
         </main>
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
-         
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Cee Jhaeeyyy</h1>
+                        <span class="footer__subtitle">Web Developer and Graphic Designer</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#about" class="footer__link">About</a>
+                        </li>
+
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                        </li>
+
+                        <li>
+                            <a href="#contact" class="footer__link">Contact Me</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram-alt"></i>
+                        </a>
+
+                        <a href="https://www.twitter.com/" target="_blank" class="footer__social">
+                            <i class="uil uil-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169; Bedimcode. All Rights Reserved</p>
+            </div>
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
-        
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
 
         <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
